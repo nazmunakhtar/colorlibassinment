@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    width:  1200px;
+    margin:  0 auto;
+    overflow:  hidden;
+}
+
+/* header */
+header{
+    background:  #fab700;
+    padding:  30px;
+}
+.logo{
+    width:  20%;
+    float:  left;
+}
+.logo img{}
+nav{
+    width:  80%;
+    float:  left;
+}
+nav ul{
+    text-align:  right;
+}
+nav ul li{
+    list-style:  none;
+    display: inline-block;
+}
+nav ul li a{
+    color:  #fff;
+    text-decoration:  none;
+    text-transform:  uppercase;
+    font-size:  18px;
+    padding-left:  40px;
+    display:  block;
+}
+nav ul li a:hover{
+    /* color: aliceblue; */
+}
+/* banner */
+.banner-section{
+    background: #bd8b03;
+    100vh: 100px 0
+    height:;
+    height: 50vh;
+    position:  relative;
+}
+.banner-content{
+    color:  #fff;
+    position:  absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.banner-content h3{
+    font-weight: 100;
+    text-transform:  uppercase;
+}
+.banner-content h1{
+    font-size: 5em;
+    font-weight:  bolder;
+    padding: 35px 0;
+}
+.banner-content p{
+    max-width:  700px;
+}
+.banner-content a{
+    color:  #fff;
+    font-size: 21px;
+    background: #fab700;
+    text-transform:  none;
+    padding: 10px 30px;
+    text-decoration:  none;
+    display:  inline-block;
+    font-weight:  800;
+    margin-top: 18px;
+}
+
+/* service-section */
+.service-section{
+    padding:  100px 0;
+}
+.heading{
+    text-align:  center;
+    margin-bottom:  100px;
+}
+.heading h1{
+    font-size:  3em;
+    text-transform:  capitalize;
+}
+.heading p{}
+
+.service-box{
+    width:  33.3%;
+    padding:  15px;
+    float:  left;
+}
+.service-box .service{
+    background: #f9f9ff;
+    padding: 20px;
+}
+.service-box .service img{
+    width:  100%;
+}
+.service-box .service h2{
+    text-transform:  capitalize;
+    margin: 15px 0;
+}
+.service-box .service p{}
+
+/* features-section */
+.features-section{
+    padding:  100px 0;
+    background:  #f9f9ff;
+}
+.features-box{
+    width: 33.3%;
+    float:  left;
+    /* float:  left; */
+    padding:  15px;
+}
+.features-box .feature{
+    background:  #fff;
+    padding: 25px;
+}
+.features-box .feature h2{
+    text-transform:  capitalize;
+    margin-bottom:  10px;
+}
+.features-box .feature p{
+    font-size:  18px;
+    color: grey;
+}
+
+/* counter-section */
+.counter-section{
+    background:  #fab700;
+    padding:  100px 0;
+}
+.counter-box{
+    width:  20%;
+    float:  left;
+}
+.counter-box .counter{
+    text-align: center;
+}
+.counter-box .counter h1{
+    font-size:  2.5em;
+    font-weight:  800;
+}
+.counter-box .counter p{}
+
+/* gallery-section */
+.gallery-section{padding:  100px 0;/* display:  block; */}
+ul.gallery {
+    list-style:  none;
+    float:  left;
+}
+ul.gallery li{
+    list-style:  none;
+    float:  left;
+    padding:  18px;
+}
+ul. gallery li img{}
+
+
+/* blog-section */
+.blog-section{
+    padding:  100px 0;
+    background: #f9f9ff;
+}
+.blog{
+    width: 25%;
+    float:  left;
+    padding:  15px;
+}
+.blog img{
+    width:  100%;
+}
+.blog a{
+    background:  black;
+    color:  #fff;
+    text-decoration: none;
+    padding:  5px 10px;
+    display:  inline-block;
+    margin-top:  10px;
+}
+.blog p{}
+.blog h2{
+    font-size:  25px;
+    text-transform:  capitalize;
+    line-height:  1;
+    margin:  10px 0;
+}
+
+
+footer{
+    background: #04091e;
+    padding:  100px 0;
+}
+.about-us{
+    color:  #fff;
+    float:  left;
+    width:  40%;
+    /* padding: 15px; */
+}
+.about-us h3{
+    text-transform:  uppercase;
+    margin-bottom:  15px;
+}
+.about-us p{
+    margin-bottom: 10px;
+    color:  grey;
+    font-weight:  100;
+    font-size:  18px;
+}
+.about-us a{
+    color: #fab700;
+    text-decoration:  none;
+    text-transform:  uppercase;
+}
+
+.newsletter{
+    color: #fff;
+    float: left;
+    width: 40%;
+    /* padding:  15px; */
+}
+.newsletter h3{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.newsletter p{
+    margin-bottom: 10px;
+    color: grey;
+    font-weight: 100;
+    font-size: 18px;
+}
+.newsletter form{}
+.newsletter form input{
+    padding: 15px;
+    border:  0;
+    float:  left;
+}
+.newsletter form button{
+    background: #fab700;
+    border:  0;
+    padding: 15px 20px;
+    color:  #fff;
+    float:  left;
+}
+
+.social{
+    color: #fff;
+    float: left;
+    width: 20%;
+    /* padding:  15px; */
+}
+.social h3{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.social p{
+    margin-bottom: 10px;
+    color: grey;
+    font-weight: 100;
+    font-size: 18px;
+}
+.social ul{}
+.social ul li{
+    list-style:  none;
+    float:  left;
+    margin-right:  15px;
+}
+.social ul li a{
+    color: #fa9117;
+}
+.social ul li a:hover{
+    color: #fa9117;
+}
+
+
+
+
+
